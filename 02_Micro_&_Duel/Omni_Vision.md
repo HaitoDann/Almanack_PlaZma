@@ -1,61 +1,62 @@
 # Omni Vision
 
-> Voir la carte entière. Tout le temps. Même en train de farmer.
+> Prendre en compte toutes les possibilités que peut avoir son ou ses adversaires.
 
 ---
 
-## C'est quoi
+## Définition
 
-L'Omni Vision, c'est la capacité à **maintenir une image mentale complète de la map** en permanence, pas seulement quand on regarde la minimap.
+L'Omni-Vision est le fait d'**anticiper et fermer le jeu de son adversaire** en tenant compte de tout ce qu'il peut faire à chaque instant.
 
-Un joueur avec Omni Vision n'a pas besoin de regarder la minimap toutes les 3 secondes pour savoir où sont les adversaires. Il *sait*. Parce qu'il a tracké leurs dernières positions, leurs itemisations, leurs patterns de jeu.
+> *Exemple : un Blitzcrank veut grab un Ezreal. Il lance son E pour se rapprocher et forcer le dash. Une fois le E lancé, le Blitzcrank peut lancer son Q et toucher plus facilement.*
+
+Ce n'est pas juste "regarder la minimap". C'est avoir une image mentale complète de ce que l'adversaire peut et ne peut pas faire.
 
 ---
 
-## Les 3 couches de vision
+## Les 7 niveaux de vision de jeu
 
-**Couche 1 — Vision directe**
-Ce que tu vois sur ton écran en ce moment. La couche la plus faible — elle ne couvre qu'une zone.
+**Niveau 1** : L'individu lance des sorts et se positionne de la même façon contre n'importe quel adversaire à n'importe quel timing.
 
-**Couche 2 — Vision de la minimap**
-Scan actif toutes les 5-7 secondes. Permet de tracker les rotations, les ganks entrants, les contestations d'objectifs.
+**Niveau 2** : L'individu prend des décisions en fonction du nombre de personnes et des barres de HP de chacun, sans plus d'analyse.
 
-**Couche 3 — Vision mentale**
-Déduction des positions adverses sans information directe.
-→ "Le midlaner est invisible depuis 40s. Baron est dans 20s. Il est probablement en train de setup."
-→ "Leur ADC n'a pas été pingué depuis 2 vagues. Il est sûrement en train de push bot."
+**Niveau 3** : L'individu prend en compte les champions autour de lui et leur rôle principal dans un duel ou un combat d'équipe.
 
-**C'est la couche 3 qui sépare les bons joueurs des grands joueurs.**
+**Niveau 4** : Le joueur est capable de dire quand l'adversaire a un sort puissant en récupération et est capable de punir sur ce timing.
+
+**Niveau 5** : Le joueur prend en compte et connaît son matchup et les différents power spikes des deux protagonistes. Il sait aussi identifier dans les grandes lignes le niveau de son adversaire et ajuste sa façon de jouer.
+
+**Niveau 6** : L'individu est capable de dire quel sort a son adversaire en temps réel et peut anticiper toutes les fenêtres d'agression et les combos qu'un champion peut lancer dans une situation de duel.
+
+**Niveau 7** : Le joueur a connaissance de tous les sorts, sorts d'invocateur, items activables et combos entre champions pendant un combat d'équipe, et anticipe la moindre action individuelle ou collective.
 
 ---
 
 ## Construire sa vision mentale
 
 **Track les dernières positions connues**
-Chaque fois qu'un adversaire disparaît de la vision → noter l'heure et la position. Déduire où il peut être 30s plus tard.
+Quand un adversaire disparaît → noter l'heure et la position. Déduire où il peut être 30s plus tard.
 
 **Track les timings d'objectifs**
-Dragon, baron, herald → tu dois savoir à la seconde quand ils spawn. Avant le spawn, l'adversaire est probablement en train de setup.
+Dragon, Baron, Herald → connaître le spawn à la seconde. L'adversaire setup avant le pop.
 
-**Track les back timings**
-Un adversaire qui vient de back est en base 30-45s. Fenêtre pour agir sur sa side.
+**Track les cooldowns de sorts**
+Flash adverse utilisé ? Ultimate disponible ? Sort principal en CD ?
+→ Sans cette info, on joue à l'aveugle sur chaque engagement.
 
 ---
 
-## Exercice pratique
+## La règle des cooldowns
 
-Pendant une game, avant chaque décision de mouvement, se poser :
-1. Où est chaque adversaire ?
-2. Est-ce que je suis sûr ou je suppose ?
-3. Si je suppose, est-ce que mon ward coverage justifie ce mouvement ?
+Un sort en récupération = une fenêtre. La punir dans le temps imparti de ce sort — **tout en prenant en compte la puissance du reste du kit adverse**.
 
-Si la réponse à 3 est non → ward avant de bouger.
+→ Voir [[Les_duels/INDEX|La Science du Duel]] pour l'application concrète en 1v1.
 
 ---
 
 ## Omni Vision en équipe
 
-La vision individuelle de chaque joueur se combine pour créer la vision d'équipe. Mais ça ne marche que si l'information est **partagée activement** (pings, comms courtes) et pas juste gardée dans sa tête.
+La vision individuelle de chaque joueur se combine. Ça ne fonctionne que si l'information est **partagée activement** (pings, comms courtes).
 
 Règle : si tu vois quelque chose que les autres ne voient probablement pas → ping immédiat.
 
@@ -63,7 +64,6 @@ Règle : si tu vois quelque chose que les autres ne voient probablement pas → 
 
 ## Liens
 
-- [[Les_duels/INDEX|Les duels]] — jamais commit un duel sans vision macro
-- [[Psychologie_et_adaptation_comportementale]] — l'Omni Vision alimente la lecture comportementale
-- [[../../04_Macro_&_Side/Gestion_des_Objectives_Neutres]] — l'objectif se prend avec vision, pas sans
-- [[../../01_Psychologie_&_Human/Profil_Ombre]] — le profil naturellement le plus fort sur la vision mentale
+- [[Les_duels/INDEX|Les duels]] — le level 6 de la vision appliqué au 1v1
+- [[Psychologie_et_adaptation_comportementale]] — la vision alimente la lecture comportementale
+- [[../../04_Macro_&_Side/Gestion_des_Objectives_Neutres]] — niveau 5-7 requis pour les objectifs

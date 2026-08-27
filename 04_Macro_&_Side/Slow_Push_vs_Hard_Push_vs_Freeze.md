@@ -1,69 +1,68 @@
 # Slow Push vs Hard Push vs Freeze
 
-> Les trois états d'une vague. Choisir le mauvais au mauvais moment = un recall raté ou un gank subi.
-
----
-
-## Freeze
-
-**Principe** : garder la vague juste hors de portée de la tour adverse, sur ton côté de la map.
-
-**Comment** : last-hit uniquement, laisser quelques minions adverses survire pour maintenir l'équilibre légèrement en ta faveur.
-
-**Conditions requises**
-- Vague neutre ou légèrement en ta faveur
-- Pas de danger de gank immédiat (vision ou intuition fiable)
-
-**Avantages**
-- Denie l'XP et le gold à l'adversaire
-- Création de pression psychologique
-- L'adversaire doit overextend pour farm → gank facile
-
-**Risques**
-- Si gank : t'es loin de ta tour → mort probable
-- Si l'adversaire push sous ta tour → c'est lui qui a l'avantage de tempo
+> Trois techniques. Choisir la mauvaise au mauvais moment = un recall raté ou un gank subi.
 
 ---
 
 ## Slow Push
 
-**Principe** : construire progressivement une grosse vague sans rush, en killant les minions adverses plus vite qu'ils arrivent.
-
-**Comment** : ne tuer qu'un minion adverse par vague de façon à créer un déséquilibre progressif. Utiliser des dégâts de zone (AOE) pour accumuler.
-
-**Conditions requises**
-- Prochain objectif dans 2-3 minutes
-- Tu veux back sans sacrifier de pressure
+Construire une grosse vague en créant un léger avantage numérique entre sbires alliés et ennemis. Plusieurs vagues se cumulent pour n'en former qu'une très grande.
 
 **Avantages**
-- La grosse vague arrive sur la tour adverse pendant ton absence
-- Crée une fenêtre d'objectif : l'adversaire doit gérer la vague ou perdre des platings
-- Sécurisé : tu gères la vague proche de ta tour pendant le buildup
+- La différence de sbires crée un avantage pendant les trades
+- Permet de dive sous tour si l'adversaire meurt
+- Offre une grosse priorité de lane
+- Peut créer une situation 1v2 avantageuse
+- Permet de décaler longtemps (vision, jungle, objectifs)
+- Détruit les tourelles plus rapidement
+- Crée un bouclier de creeps (protection de certains sorts, ex : Q de Blitzcrank)
+- Facile à mettre en place
+- Permet d'agresser l'adversaire sous tour
+- Offre un back "gratuit"
 
-**Risques**
-- Trop lent → la vague arrive trop tard par rapport à l'objectif
-- L'adversaire peut reset la vague avec un hard push rapide
+**Défauts**
+- Met du temps à se mettre en place (plusieurs vagues doivent s'accumuler)
+- Expose aux ganks
+- Empêche le jungler allié de gank
+- Certains champions (Yasuo, Irelia) ont besoin de sbires pour leur kit — une grosse wave adverse les gêne
 
 ---
 
 ## Hard Push
 
-**Principe** : vider la vague le plus vite possible pour libérer du temps.
-
-**Comment** : utiliser toutes les capacités de dégâts de zone sur les minions. Priorité sur les minions mages (casters) qui ont moins de HP.
-
-**Conditions requises**
-- Roam à effectuer immédiatement
-- Objectif qui spawn dans moins de 60 secondes
-- Recall urgent
+Pousser la vague le plus vite possible en envoyant des sorts dans les creeps.
 
 **Avantages**
-- Libère du temps immédiatement
-- Pressure de tour si l'adversaire n'est pas là
+- Offre rapidement une priorité de lane au jungler
+- Permet de décaler vite pour un objectif ou de la vision
+- Peut accélérer le level up pour punir un adversaire
+- Plus de creeps du côté allié pour trader
+- Possible de dive (wave moins grosse qu'un slow push)
+- Offre un timing de back
+- Rapide et simple à mettre en place
 
-**Risques**
-- Laisse l'adversaire avec une vague freeze facile
-- Sacrifie la pression de lane si mal timé
+**Défauts**
+- Dépense du mana ou de l'énergie + ouvre des fenêtres pendant les cooldowns
+- Expose aux ganks
+- La vague reste petite
+- Pas tous les champions peuvent hard push (ex : Vayne)
+
+---
+
+## Freeze
+
+Amener les sbires ennemis proches de sa tourelle (sans qu'elle puisse les toucher) en supériorité numérique.
+
+**Comment** : last-hit uniquement, laisser quelques sbires adverses survivre pour maintenir l'équilibre légèrement en ta faveur.
+
+**Avantages**
+- Denie l'XP et le gold à l'adversaire
+- L'adversaire doit overextend pour farm → gank facile
+- Pression psychologique — l'adversaire ne peut rien faire
+
+**Défauts**
+- Loin de ta tour → mort probable sur un gank
+- Si l'adversaire push fort sous ta tour → c'est lui qui prend le contrôle du tempo
 
 ---
 
@@ -71,16 +70,16 @@
 
 | Situation | État recommandé |
 |-----------|----------------|
-| Tu domines le lane, adversaire à portée de kill | Freeze |
+| Tu domines, adversaire à portée de kill | Freeze |
 | Baron dans 2 min, tu veux back | Slow Push |
-| Dragon spawn dans 45s, jungle call | Hard Push |
+| Dragon spawn dans 45s | Hard Push puis rejoindre |
 | Tu es derrière, sous ta tour | Freeze ou reset |
-| Tu dois roam | Hard Push puis roam |
+| Tu dois roamer | Hard Push puis roam |
 
 ---
 
 ## Liens
 
-- [[Wave_Management_Fundamentals]] — vue d'ensemble
-- [[Wave_Sync_&_Tempo]] — la synchronisation des vagues entre lanes
-- [[Macro_du_Split_Push]] — le splitpusher gère ces états en permanence
+- [[Wave_Management_Fundamentals]] — vue d'ensemble + composition des vagues
+- [[Wave_Sync_&_Tempo]] — synchronisation entre lanes
+- [[Macro_du_Split_Push]] — le splitpusher gère ces 3 états en permanence

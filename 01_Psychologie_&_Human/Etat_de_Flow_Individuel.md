@@ -1,62 +1,72 @@
 # État de Flow Individuel
 
-> La zone. Quand le jeu se ralentit et que les décisions viennent seules.
+> La Zone. Un état de concentration ultime où on dépasse ses limites en faisant abstraction de tout le reste.
 
 ---
 
-## C'est quoi le flow
+## C'est quoi
 
-Le flow est un état de performance optimale où :
-- Les décisions sont automatiques, sans effort conscient
-- L'attention est totale, sans distraction
-- La perception du temps est altérée (la game semble plus lente)
-- L'erreur ne déclenche pas de réaction émotionnelle — elle est simplement corrigée
+Le Flow advient quand une personne fait une activité maîtrisée avec une difficulté cohérente avec son niveau. Trop facile → ennui. Trop difficile → doute. **La zone se trouve entre les deux.**
 
-Ce n'est pas un état permanent. C'est une **fenêtre à ouvrir et à protéger**.
+La connaissance de soi et de ses capacités est donc primordiale.
+
+La surcharge d'information (téléphone, musique, distractions) rend difficile d'atteindre le flow à 100%. Il faut se séparer de ce qui est superficiel et se retrouver seul face à son jeu.
+
+> *"J'ai ressenti comme un étrange calme... une sorte d'euphorie. J'ai eu l'impression de pouvoir courir une journée entière sans fatigue."*
+> — Pelé, décrivant son expérience d'être dans la zone
+
+---
+
+## Symptômes du flow
+
+- Concentration intense focalisée sur le moment présent
+- Disparition de la distance entre le sujet et l'objet
+- Perte du sentiment de conscience de soi
+- Sensation de contrôle et de puissance sur l'activité
+- Distorsion de la perception du temps (la game semble plus lente)
+- L'activité est en soi source de satisfaction
+- Rétroaction immédiate — les réussites et difficultés sont repérées et le comportement ajusté instantanément
+- Sentiment de réussite
+- Les autres besoins semblent négligeables
+
+Ces aspects peuvent être présents indépendamment les uns des autres — **seule la combinaison de plusieurs d'entre eux constitue une véritable expérience de flow.**
 
 ---
 
 ## Comment y entrer
 
-**Pré-game (15 min avant)**
-- Couper les distractions externes (notifs, bruit)
-- Warm-up : custom game, aim trainer, ou juste des parties de farm sans pression
-- Mental reset : effacer la game précédente — elle n'existe plus
+**Pré-game**
+- Couper toutes les distractions
+- Warm-up : customs ou aim trainer sans pression
+- Reset mental : la game précédente n'existe plus
 
-**In-game (les 5 premières minutes)**
-- Focus sur le process, pas sur le score (CS > kills)
+**Early game**
+- Focus sur le process, pas le score (CS > kills)
 - Un seul objectif à la fois
-- Comm minimale et calme au départ — ne pas chauffer vocalement trop vite
+- Comms minimalistes au départ
 
 ---
 
-## Ce qui le casse
+## L'inconvénient du flow individuel
 
-- Un trade de lane perdu sur une erreur → frustration verbale → perte de focus
-- Un coéquipier qui tilte et amène le chaos dans les comms
-- Trop d'information simultanée (5 pings en même temps)
-- Regarder le scoreboard trop souvent
+Le principal défaut : **frustration décuplée** quand un élément perturbateur imprévu entre en compte. L'individu peut se retourner contre lui-même pour ne pas l'avoir vu venir.
 
----
+La zone est un état de plénitude avec soi-même — la distance avec autrui peut créer un **manque de synergie** entre les joueurs. Un joueur seul en flow peut se décaler du reste de l'équipe.
 
-## Signaux que tu es en flow
-
-- Tu anticipes avant de voir (tu sais qu'il va flanc avant qu'il apparaisse)
-- Tes mains bougent avant ta pensée consciente
-- Tu ne penses plus à "j'aurais dû" — tu passes directement à "prochaine action"
+*Note : si un individu s'éveille à la zone, le groupe auquel il appartient n'est qu'un contexte. L'entité collective n'a qu'une influence minime sur son état individuel.*
 
 ---
 
-## Protocole de retour au flow après un tilt
+## Protocole de retour après un tilt
 
-1. Respiration : 3 secondes. Pas de comm pendant.
-2. Identifier la prochaine action concrète (pas "joue mieux" → "farm 6 minions, puis ward tri")
+1. 3 secondes de silence. Pas de comm.
+2. Identifier la prochaine action concrète (pas "joue mieux" → "farm 6 minions puis ward tri")
 3. Ignorer le chat et le scoreboard pendant 2 minutes
 
 ---
 
 ## Liens
 
-- [[Team_Flow_Collectif]] — le flow individuel est la brique de base du flow collectif
-- [[Profil_Chirurgien]] — le profil le plus naturellement proche du flow en lane
-- [[Gestion_des_Egos_&_Superteams]] — les egos cassent le flow
+- [[Team_Flow_Collectif]] — le flow collectif est plus puissant mais plus fragile
+- [[Profil_Panda]] — le profil qui entre le plus naturellement en flow sous pression
+- [[Gestion_des_Egos_&_Superteams]] — les egos cassent le flow individuel

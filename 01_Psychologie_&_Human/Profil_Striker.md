@@ -1,36 +1,51 @@
 # Profil Striker
 
-> Le chasseur. Il joue pour dominer l'adversaire en face de lui.
+> Le chasseur. Ressources, kills, dégâts — c'est son score.
 
 ---
 
 ## Identité
 
-Le Striker vit pour le duel. Sa motivation principale : **surpasser son lane opponent**. Il mesure sa performance en kills, en avance de CS, en domination du lane.
+Le Striker est très demandant en ressources, personnalité forte, confiance en soi élevée. Il a besoin d'être mis dans les bonnes conditions : **counter pick, ganks, farm**.
 
-Quand ça marche → moteur de l'équipe. Quand ça déraille → tête brûlée qui tilte toute la team.
+Gameplay agressif → beaucoup de kills, beaucoup de morts, beaucoup de dégâts. Souvent considéré comme "coin flip". Il apporte une pression colossale et attire énormément les ganks ou les focus en fight.
+
+Souvent vu comme un génie incompris. Peut paraître antipathique.
 
 ---
 
 ## Caractéristiques
 
 **Forces**
-- Pression de lane naturelle, génère des ressources pour l'équipe
-- Haut plafond individuel, joue les matchups difficiles
-- Mentalité "je gagne ce duel" qui force l'adversaire à réagir
+- Précis mécaniquement, dangereux en lane et en fight
+- Initiateur, créatif, instinctif
+- Pression de lane naturelle — génère de l'attention et des ressources
 
 **Faiblesses**
-- Tunnel sur son lane — tend à mal lire le macro
-- Tilte vite sur les défaites de duel (gank, contreplay)
-- Peut sacrifier l'objectif pour le kill
+- Borné, peut être agressif, capricieux
+- Faible mentalement — facilement exploitable par son agressivité
+- Tunnel sur ses métriques (kills/dégâts) → peut sacrifier la win pour le play
+
+---
+
+## La règle des 2 Strikers
+
+Si deux Strikers se retrouvent dans la même équipe → **gestion d'ego obligatoire**.
+C'est d'ailleurs pour ça que les superteams fonctionnent rarement.
+
+Si un Striker n'est pas le meilleur joueur de son équipe :
+- Option A : se dépasse pour reprendre sa place
+- Option B : quitte l'équipe pour devenir le héros d'une autre
+
+Il base son niveau sur la prestation qu'il a donnée et le nombre de kills/dégâts.
 
 ---
 
 ## Ce dont il a besoin
 
-- **Espace** : éviter de covrir sa lane systématiquement, il veut sentir qu'il gagne par lui-même
-- **Reconnaissance** : valider ses kills/plays — pas de la flatterie, juste de l'acknowledgement
-- **Clarté** : lui donner un objectif clair (objectif, TP timing) pour canaliser son énergie
+- **Ressources** : farm assuré, ganks ciblés, counter pick si possible
+- **Reconnaissance** : pas de la flatterie — juste de l'acknowledgement sur ses plays
+- **Espace** : ne pas covrir sa lane systématiquement, il veut gagner par lui-même
 
 ---
 
@@ -38,20 +53,24 @@ Quand ça marche → moteur de l'équipe. Quand ça déraille → tête brûlée
 
 | Situation | Ce qu'on dit | Ce qu'on évite |
 |-----------|-------------|----------------|
-| Il est en train de dominer | "Continue, on setup l'obj" | Rien — le laisser jouer |
+| Il domine | "Continue, on setup l'obj" | Rien — le laisser jouer |
 | Il a mal joué un duel | "Focus wave, prochain obj" | "T'aurais pas dû fight" |
-| Il est en tilt | Pas de comm sur le passé, juste la prochaine action | Analyser en game |
+| Il est en tilt | Prochaine action concrète uniquement | Analyser le passé en game |
 
 ---
 
+## Profils pro de référence
+
+Caps ("baby Faker"), Hylissang ("le support S et F tier"), Jackeylove ("l'adc fou")
+
 ## Archétypes de champions
 
-Joue naturellement sur : **bruisers de lane, AD carries assertifs, mages avec range dominante**
+**LeBlanc, Draven, Pyke, Riven**
 
 ---
 
 ## Liens
 
-- [[Profil_Ombre]] — complémentaire : l'Ombre couvre ses flancs
-- [[Gestion_des_Egos_&_Superteams]] — risque si plusieurs Strikers coexistent
-- [[Etat_de_Flow_Individuel]] — le Striker atteint le flow en dominant, pas en survivant
+- [[Profil_Ombre]] — relation naturelle : l'Ombre enable, le Striker carry
+- [[Gestion_des_Egos_&_Superteams]] — risque majeur si plusieurs Strikers coexistent
+- [[Etat_de_Flow_Individuel]] — le Striker entre en flow en dominant, tilte en perdant

@@ -1,37 +1,48 @@
 # Profil Ombre
 
-> L'invisible. Il agit là où personne ne regarde.
+> Le joueur qui joue pour les autres. Son but : que l'équipe gagne, pas qu'il brille.
 
 ---
 
 ## Identité
 
-L'Ombre ne cherche pas la confrontation directe — il **exploite les angles morts**. Sa valeur : créer de l'incertitude dans la tête adverse, apparaître quand ce n'est pas prévu.
+L'Ombre met le jeu collectif au centre. Ses champions : simples à prendre en main mais utiles pour l'équipe. Son draft : souvent le blind pick. Sa satisfaction : que le travail soit fait, peu importe qui a le kill.
 
-Il est le joueur dont l'adversaire ne sait jamais où il est.
+Une relation **maître/esclave** peut naturellement s'installer avec un [[Profil_Striker]] — cette relation est saine si les deux joueurs ont conscience de leurs rôles respectifs.
 
 ---
 
 ## Caractéristiques
 
 **Forces**
-- Lecture de la map globale, anticipe les mouvements adverses
-- Sait quand attaquer et quand ne pas attaquer
-- Crée de la pression passives (zone de danger mental pour l'adversaire)
-- Performant dans les compositions qui jouent l'info et l'asymétrie
+- Large pool de champions, couvre tous les besoins de la compo
+- Communiquant, donne le bon mental, stabilise l'équipe
+- Altruiste dans son gameplay, comble les failles de la composition
+- Accepte de jouer à perte tant que le travail est fait ailleurs
+- Réfléchi, conservateur — ne crée pas de chaos
 
 **Faiblesses**
-- Peut paraître "passif" ou "pas là" quand il accumule de l'info
-- Difficile à lire pour ses propres coéquipiers
-- Peut sur-attendre et manquer des fenêtres
+- Souvent mécaniquement plus faible que les autres profils
+- Peu proactif en solo — dépendant du contexte équipe
+- Ne sait pas jouer devant, ne convient pas à tous les rôles
+- Peut basculer dans le mutisme en vocal dans les moments difficiles
+- Peut se sentir impuissant quand l'équipe perd — frustration silencieuse
 
 ---
 
 ## Ce dont il a besoin
 
-- **Info** : vision, ping de positions — il décide mieux avec plus de données
-- **Confiance** : ne pas lui demander de justifier chaque décision de roam/bait
-- **Liberté de mouvement** : ne pas le locker sur sa lane si le map appelle
+- **Rôle clair** : savoir ce qu'il apporte ce soir — qui il protège, qui il enable
+- **Reconnaissance du travail invisible** : valider l'assist, le peel, le sacrifice
+- **Un Striker à servir** : il joue mieux quand il a un carry fort à amplifier
+
+---
+
+## Ce qui se passe si l'Ombre se sent le meilleur
+
+Il cherche un joueur plus fort à qui donner ses services, **ou** il pousse ses coéquipiers indirectement pour élever le niveau. Il ne fait pas le carry pour lui — il crée les conditions pour que quelqu'un d'autre le soit.
+
+Il base son niveau de jeu sur le niveau de son équipe.
 
 ---
 
@@ -39,20 +50,27 @@ Il est le joueur dont l'adversaire ne sait jamais où il est.
 
 | Situation | Ce qu'on dit | Ce qu'on évite |
 |-----------|-------------|----------------|
-| Il est en train de setup un flanc | Silence — laisser l'info venir | Appeler la play avant qu'il soit prêt |
-| Il a attendu trop longtemps | "C'était ta fenêtre" (post-game) | Critiquer en game |
-| Il prend un angle bizarre | Confiance, suivre le call | "Pourquoi tu vas là ?" |
+| Il a bien peelé / sacrifié | "Excellent, ça a permis X" | Rien (il a besoin de voir que ça a servi) |
+| L'équipe perd et il se tait | "Prochain objectif, tout le monde là ?" | Analyse émotionnelle en game |
+| Il hésite à jouer devant | Lui donner un objectif simple et borné | "Sois plus agressif" |
 
 ---
 
 ## Archétypes de champions
 
-Joue naturellement sur : **assassins de jungle, supports à engage caché, champions avec mobilité ou invisibilité**
+Joue naturellement sur : **enchanteurs, tanks utilitaires, champions simples avec un fort apport collectif (Malphite, Amumu, Lulu, Janna)**
+
+---
+
+## Profils pro de référence
+
+Odoamne — "weak side king européen"
 
 ---
 
 ## Liens
 
-- [[Profil_Striker]] — le Striker crée le bruit, l'Ombre agit dans le silence
-- [[Omni_Vision]] — l'Ombre a naturellement une vision plus large de la map
-- [[02_Micro_&_Duel/Psychologie_et_adaptation_comportementale]] — adapte son comportement selon le tempo adverse
+- [[Profil_Striker]] — sa relation naturelle : l'Ombre enable, le Striker carry
+- [[Team_Flow_Collectif]] — l'Ombre est souvent le ciment du collectif
+- [[Gestion_des_Egos_&_Superteams]] — si l'Ombre se sent ignoré → frustration latente
+- [[05_Draft_&_Comps/Regles_de_Selection_du_Support]] — profil naturellement aligné avec les rôles de soutien

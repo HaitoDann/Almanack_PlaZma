@@ -1,37 +1,47 @@
 # Profil Chirurgien
 
-> Le précis. Zéro risque non calculé, zéro mouvement inutile.
+> L'horloger. Chaque move est optimisé. Zéro approximation.
 
 ---
 
 ## Identité
 
-Le Chirurgien **n'agit que quand c'est optimal**. Il joue sur la certitude : un farm parfait, un trade uniquement gagnant, un fight uniquement favorable. Sa présence en jeu est silencieuse mais constante.
+Véritable horloger de League of Legends — la précision mécanique et l'optimisation de chaque move est primordiale. Peut avoir sa place dans une équipe mais ce côté méticuleux peut amener au **mutisme** : éviter de lui confier un rôle de shotcaller ou de capitaine.
 
-Il est le joueur le plus difficile à lire pour l'adversaire — pas parce qu'il surprend, mais parce qu'il ne donne aucun levier.
+Pool de champions resserré — avant de le jouer en équipe, il se doit de connaître tous les secrets de son personnage.
+
+Souvent vu comme froid et calculateur. Côté rassurant en phase de lane — il a déjà étudié son matchup et connaît ses limites.
 
 ---
 
 ## Caractéristiques
 
 **Forces**
-- CS parfait, économie irréprochable
-- Décisions cohérentes — ne crée pas de chaos dans l'équipe
-- Excellent dans les situations de pression défensive
+- Précis, cohérent, ne crée pas de chaos
+- Connaît son matchup à fond — no surprise
+- Excellent sous pression défensive
 - Scaling fiable : si la game dure, il est là
 
 **Faiblesses**
-- Sous-performe dans les situations chaotiques et les early skirmishes
-- Peut paraître froid ou désengagé émotionnellement
-- Parfois trop prudent — refuse des fenêtres légèrement incertaines mais positives
+- Peu adapté aux situations chaotiques et imprévisibles
+- Peut paraître froid, désengagé émotionnellement
+- Refuse parfois des fenêtres légèrement incertaines mais positives
+
+---
+
+## Comment il réagit à la défaite
+
+**S'il sent qu'il a mal joué** → frustration énorme + esprit combatif fort → se relève plus fort.
+
+**S'il a l'impression d'avoir "joué parfaitement" mais perdu** → frustration encore plus grande → risque de lassitude. Il déteste perdre à cause des autres car il ne se sent pas responsable et concerné par la progression de ses coéquipiers — seulement de lui-même.
 
 ---
 
 ## Ce dont il a besoin
 
-- **Structure** : un plan clair (qui fight, qui split, quel objectif)
-- **Temps** : ne pas le forcer à improviser sous pression
-- **Justification** : il joue mieux quand il comprend pourquoi on fait telle action
+- **Structure** : un plan clair, un rôle défini
+- **Temps** : ne pas le forcer à improviser
+- **Justification** : il joue mieux quand il comprend le pourquoi
 
 ---
 
@@ -39,20 +49,20 @@ Il est le joueur le plus difficile à lire pour l'adversaire — pas parce qu'il
 
 | Situation | Ce qu'on dit | Ce qu'on évite |
 |-----------|-------------|----------------|
-| On veut qu'il engage | "Tu peux fight, c'est +400 gold avantage" | "Go !" sans contexte |
-| Il a refusé un fight | "Tu avais raison / voilà ce qu'on avait" (post-game) | "T'es trop passif" |
-| Game chaotique | Lui donner UN objectif simple | Lui envoyer 5 callouts simultanés |
+| On veut qu'il engage | "Tu peux fight, c'est +400g d'avance" | "Go !" sans contexte |
+| Il a refusé un fight | Post-game uniquement | "T'es trop passif" |
+| Game chaotique | Un seul objectif simple | 5 callouts simultanés |
 
 ---
 
 ## Archétypes de champions
 
-Joue naturellement sur : **champions de farming (Splitpushers, ADC lane bullies), mages de poke, controleurs de zone**
+Pool étroit, entièrement maîtrisé. **Champions de farming, splitpushers, mages de poke.**
 
 ---
 
 ## Liens
 
-- [[Profil_Panda]] — alliance naturelle : le Panda absorbe, le Chirurgien exploite
-- [[04_Macro_&_Side/Macro_du_Split_Push]] — le Chirurgien excelle dans le split méthodique
+- [[Profil_Panda]] — différence : le Chirurgien optimise, le Panda ressent
+- [[04_Macro_&_Side/Macro_du_Split_Push]] — le split méthodique est sa zone de confort
 - [[05_Draft_&_Comps/Compo_Poke_Siege]] — sa compo de prédilection
