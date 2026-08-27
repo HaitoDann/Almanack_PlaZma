@@ -1,0 +1,96 @@
+name: Deploy Almanack PlaZma
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout vault
+        uses: actions/checkout@v4
+        with:
+          path: vault
+
+      - name: Checkout Quartz
+        uses: actions/checkout@v4
+        with:
+          repository: jackyzha0/quartz
+          ref: v4
+          path: quartz
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: quartz/package-lock.json
+
+      - name: Install Quartz dependencies
+        working-directory: quartz
+        run: npm ci
+
+      - name: Configure Quartz
+        working-directory: quartz
+        run: |
+          python3 - <<'EOF'
+          import re
+
+          with open("quartz.config.ts", "r") as f:
+              content = f.read()
+
+          content = re.sub(r'pageTitle:\s*"[^"]*"', 'pageTitle: "Almanack PlaZma"', content)
+          content = re.sub(r'locale:\s*"[^"]*"', 'locale: "fr-FR"', content)
+          content = re.sub(r'baseUrl:\s*"[^"]*"', 'baseUrl: "haitodann.github.io/Almanack_PlaZma"', content)
+
+          with open("quartz.config.ts", "w") as f:
+              f.write(content)
+
+          print("Quartz configured.")
+          EOF
+
+      - name: Copy vault content to Quartz
+        run: |
+          mkdir -p quartz/content
+          cd vault
+          find . -name "*.md" ! -path "./.git/*" | while IFS= read -r f; do
+            rel="${f#./}"
+            target="../quartz/content/$rel"
+            mkdir -p "$(dirname "$target")"
+            cp "$f" "$target"
+          done
+          # INDEX.md devient la page d'accueil
+          if [ -f "../quartz/content/INDEX.md" ]; then
+            mv "../quartz/content/INDEX.md" "../quartz/content/index.md"
+          fi
+
+      - name: Build
+        working-directory: quartz
+        run: npx quartz build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quartz/public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
