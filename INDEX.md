@@ -1,6 +1,6 @@
 # Almanack PlaZma
 
-> Encyclopédie LoL interne · PlaZma · v0.1
+> Encyclopédie LoL interne · PlaZma · v0.2
 
 ---
 
@@ -8,21 +8,22 @@
 
 | Module | Sujet |
 |--------|-------|
-| [[01_Psychologie_&_Human/INDEX\|01 — Psychologie]] | Profils, flow, gestion des egos |
-| [[02_Micro_&_Duel/INDEX\|02 — Micro & Duel]] | Duels, vision, adaptation comportementale |
-| [[03_Maths_&_Stats/INDEX\|03 — Maths & Stats]] | Gold, breakpoints, timings |
-| [[04_Macro_&_Side/INDEX\|04 — Macro & Side]] | Wave management, split, formations |
-| [[05_Draft_&_Comps/INDEX\|05 — Draft & Comps]] | Piliers de draft, pick/ban, archetypes de compo |
-| [[06_Champions/INDEX\|06 — Champions]] | Fiches par champion |
+| [[01_Psychologie_et_Human\|01 — Psychologie]] | Flow, tilt, concentration, sécurité psychologique |
+| [[02_Micro_et_Duel\|02 — Micro & Duel]] | Neuroscience, vision, map awareness |
+| [[03_Maths_et_Stats\|03 — Maths & Stats]] | Gold, breakpoints, timings |
+| [[04_Macro_et_Side\|04 — Macro & Side]] | Wave management, split, formations |
+| [[05_Draft_et_Comps\|05 — Draft & Comps]] | Piliers de draft, pick/ban, archetypes de compo |
+| [[06_Hygiène_de_Vie\|06 — Hygiène de Vie]] | Sommeil, nutrition, warm-up cognitif |
 
 ---
 
 ## Concepts clés à lire en premier
 
-1. [[01_Psychologie_&_Human/Etat_de_Flow_Individuel]] — comprendre son propre état avant de jouer
-2. [[04_Macro_&_Side/Wave_Management_Fundamentals]] — base de tout le macro
-3. [[05_Draft_&_Comps/Les_Piliers_de_la_Draft]] — framework de draft
+1. [[Flow_et_Concentration]] — comprendre son état optimal avant de jouer
+2. [[Tilt_et_Régulation_Émotionnelle]] — gérer la pression et la colère
+3. [[Charge_Cognitive]] — comment le cerveau traite l'information en jeu
+4. [[Sécurité_Psychologique]] — créer un environnement d'équipe sain
 
 ---
 
-*Dernière mise à jour : 27/08/2026*
+*Dernière mise à jour : 29/08/2026*

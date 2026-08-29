@@ -66,7 +66,9 @@ jobs:
           cd vault
           find . -name "*.md" ! -path "./.git/*" | while IFS= read -r f; do
             rel="${f#./}"
-            target="../quartz/content/$rel"
+            # Remplace & par et dans les noms de dossiers (& est réservé dans les URLs)
+            clean_rel="${rel//&/et}"
+            target="../quartz/content/$clean_rel"
             mkdir -p "$(dirname "$target")"
             cp "$f" "$target"
           done
@@ -74,6 +76,25 @@ jobs:
           if [ -f "../quartz/content/INDEX.md" ]; then
             mv "../quartz/content/INDEX.md" "../quartz/content/index.md"
           fi
+
+      - name: Fix wikilinks (& → et dans les chemins)
+        run: |
+          python3 - <<'EOF'
+          import re, glob
+
+          for filepath in glob.glob('quartz/content/**/*.md', recursive=True) + ['quartz/content/index.md']:
+              try:
+                  with open(filepath, 'r', encoding='utf-8') as f:
+                      content = f.read()
+                  # Remplace & par et à l'intérieur des wikilinks [[...]]
+                  new_content = re.sub(r'\[\[([^\]]*?)&([^\]]*?)\]\]', r'[[\1et\2]]', content)
+                  if new_content != content:
+                      with open(filepath, 'w', encoding='utf-8') as f:
+                          f.write(new_content)
+              except FileNotFoundError:
+                  pass
+          print("Wikilinks fixed.")
+          EOF
 
       - name: Build
         working-directory: quartz
