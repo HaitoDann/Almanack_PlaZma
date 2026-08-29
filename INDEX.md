@@ -4,10 +4,17 @@
 
 ---
 
+## ▶ Commence ici
+
+**[[Plan_Opérationnel]]** — le pont entre la théorie et le terrain. Toute la science du vault traduite en gestes concrets : ce que le coach met en place, ce que les joueurs travaillent, ce que le CEO pilote.
+
+---
+
 ## Map du vault
 
 | Module | Sujet |
 |--------|-------|
+| [[Plan_Opérationnel\|00 — Opérationnel]] | Appliquer la science : coach, joueurs, CEO |
 | [[01_Psychologie_et_Human\|01 — Psychologie]] | Flow, tilt, concentration, sécurité psychologique |
 | [[02_Micro_et_Duel\|02 — Micro & Duel]] | Neuroscience, vision, map awareness |
 | [[03_Maths_et_Stats\|03 — Maths & Stats]] | Gold, breakpoints, timings |
